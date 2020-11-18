@@ -33,29 +33,6 @@ function init() {
 	var light	= new THREE.DirectionalLight( 0xffffff, 1 );
 	light.position.y = 3;
 	scene.addLight( light );
-	
-(function(){
-	var speed	= new MarblePhysics.Vector3();
-	speed.set(1, 0.3, 0);
-	var normal	= new MarblePhysics.Vector3();
-	normal.set(-1, 0, 0);
-	
-	console.log("speed", JSON.stringify(speed))
-	console.log("normal", JSON.stringify(normal))
-	
-	var scalarProj	= speed.scalarProjectionOn(normal);
-	var centerPoint	= normal.clone().normalize().multiplyScalar(scalarProj);
-
-	
-	var symPoint	= speed.clone().negate().addSelf( centerPoint ).addSelf( centerPoint );
-	
-	console.log("speed.scalarProjectionTo(normal)", scalarProj);
-	console.log("centerPoint", JSON.stringify(centerPoint));
-	console.log("symPoint", JSON.stringify(symPoint));
-
-	var angleNormal	= Math.PI - speed.angleWith(normal);
-	console.log("speed.angleWith(normal)", angleNormal * 180 / Math.PI);
-}());
 
 	world	= new MarblePhysics.World();
 	

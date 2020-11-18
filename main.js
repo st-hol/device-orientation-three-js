@@ -50,13 +50,12 @@ function init() {
 	// directionalLight.position.set( 0, 0, 1 ).normalize();
 	// scene.addLight( directionalLight );
 	
-	physicsWorld	= new MarblePhysics.World();
+	// physicsWorld	= new MarblePhysics.World();
 
 	world	= new Marble.World({
 		scene	: scene
 	});
 
-	THREEx.WindowResize(renderer, world.camera().object());
 }
 
 // ## Animate and Display the Scene
@@ -71,9 +70,6 @@ function animate() {
 // ## Render the 3D Scene
 function render() {
 
-	physicsWorld.update();
-
-	// world .tick()
 	world.tick();
 	
 	// actually display the scene in the Dom element
