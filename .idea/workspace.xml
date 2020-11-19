@@ -1,13 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc9312c-421a-4733-bd14-8a1fb8047710" name="Default Changelist" comment="">
+    <list default="true" id="3cc9312c-421a-4733-bd14-8a1fb8047710" name="Default Changelist" comment="mesh, figure, refactoring">
+      <change afterPath="$PROJECT_DIR$/code/camera.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/clover_knot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/world.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/textures/square-outline-textured.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/UV.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/SwedishRoyalCastle/nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/SwedishRoyalCastle/ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/SwedishRoyalCastle/nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/SwedishRoyalCastle/px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/SwedishRoyalCastle/py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/SwedishRoyalCastle/pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/SwedishRoyalCastle/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/convert.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/down.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/front.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/orig/up.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cube/redsky/pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/planets/moon_1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/square-outline-textured.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/marble.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/marble.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/camera.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/marble.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/code/figure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/world.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/examples/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/marblePhysics/examples/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.CelShader.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.CelShader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.GeometryUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.GeometryUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.GeometryWobble.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.GeometryWobble.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.KeyboardState.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.KeyboardState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.LogoTurtle.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.LogoTurtle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.PlasmaShader.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.PlasmaShader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.SkyMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.SkyMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.WindowResize.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.WindowResize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.deviceOrientationState.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.deviceOrientationState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.glCapability.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.glCapability.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.requestAnimationFrame.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.requestAnimationFrame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/THREEx.screenshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/THREEx.screenshot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.CelShader.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.CelShader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.CubeMap.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.CubeMap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.GeometryUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.GeometryUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.GeometryWobble.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.GeometryWobble.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.KeyboardState.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.KeyboardState.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.LogoTurtle.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.LogoTurtle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.PlasmaShader.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.PlasmaShader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.WindowResize.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.WindowResize.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.glCapability.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.glCapability.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.requestAnimationFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.requestAnimationFrame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/THREEx.screenshot.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/THREEx.screenshot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/docs/docco.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/docs/docco.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/THREEx/examples/THREEx.KeyboardState.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/THREEx/examples/THREEx.KeyboardState.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/build/marblephysics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/examples/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/lib/Math/matrix3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/lib/Math/matrix4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/lib/Math/vector3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/lib/body.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/lib/box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/lib/collisionDetection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/lib/collisionResponse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/lib/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/lib/sphere.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/marblePhysics/lib/world.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/microcache.js/MIT-LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/microcache.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/microcache.js/microcache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/microcache.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/microcache.js/tests/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/REVISION" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/REVISION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/TODO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/build/CurveExtras.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/build/ParametricGeometries.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/build/ParametricGeometries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/build/Three.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/build/Three.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/build/dat.gui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/build/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/Detector.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/Detector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/ImprovedNoise.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/ImprovedNoise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/PRNG.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/PRNG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/RequestAnimationFrame.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/RequestAnimationFrame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/ShaderExtras.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/ShaderExtras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/SimplexNoise.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/SimplexNoise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/Sparks.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/Sparks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/Stats.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/Stats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/Tween.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/Tween.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/gui/gui.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/gui/gui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/gui/gui.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/gui/gui.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/gui/gui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/gui/gui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/postprocessing/BloomPass.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/postprocessing/BloomPass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/postprocessing/DotScreenPass.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/postprocessing/DotScreenPass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/postprocessing/EffectComposer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/postprocessing/EffectComposer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/postprocessing/FilmPass.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/postprocessing/FilmPass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/postprocessing/MaskPass.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/postprocessing/MaskPass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/postprocessing/RenderPass.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/postprocessing/RenderPass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/postprocessing/ShaderPass.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/postprocessing/ShaderPass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/three.js/examples/js/postprocessing/TexturePass.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/three.js/examples/js/postprocessing/TexturePass.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +160,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images/planets" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -45,22 +179,55 @@
       <updated>1605723006213</updated>
       <workItem from="1605723007270" duration="618000" />
       <workItem from="1605729635923" duration="2106000" />
-      <workItem from="1605732675122" duration="621000" />
+      <workItem from="1605732675122" duration="947000" />
+      <workItem from="1605806404790" duration="3282000" />
     </task>
+    <task id="LOCAL-00001" summary="mesh, figure, refactoring">
+      <created>1605733576297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605733576297</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mesh, figure, refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="mesh, figure, refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605729689392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605729689392" />
-    <state x="605" y="188" width="1169" height="776" key="find.popup" timestamp="1605733195937">
+    <state x="351" y="78" key="SettingsEditor" timestamp="1605806451049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="605" y="188" width="1169" height="776" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605733195937" />
+    <state x="351" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605806451049" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1605733582772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605733582772" />
+    <state x="605" y="188" width="1169" height="776" key="find.popup" timestamp="1605809320078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="188" width="1169" height="776" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605809320078" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1605730595726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
