@@ -13,6 +13,9 @@ CloverKnot.Figure.prototype.constructor = CloverKnot.CloverKnot;
 CloverKnot.Figure.prototype.parent = CloverKnot.CloverKnot.prototype;
 
 
+/**
+ * controls device orientation
+ */
 CloverKnot.Figure.prototype._adjustAccordingToDeviceOrientation = function () {
     var maxAngleX = 25 * Math.PI / 180;
     var epsilonX = 2 * Math.PI / 180;
